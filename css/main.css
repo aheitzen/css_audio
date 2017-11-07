@@ -1,0 +1,23 @@
+:root {
+	--largeFont: 300px;
+}
+
+html, body {
+	background-image: url("../images/pow-star.png");
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: fixed;
+}
+
+i.fa.fa-music {
+	width: 100%;
+	font-size: var(--largeFont);
+	text-align: center;
+	margin-top: 15%;
+}
+
+i.fa.fa-music:hover {
+	color: #ff00ff;
+	cursor: pointer;
+}
